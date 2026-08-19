@@ -1,40 +1,98 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat',sans-serif;
+    font-family: " Roboto Slab", sans-serif;
 }
 
-li{
+li {
     display: inline-block;
 }
-nav{
+
+nav {
     display: inline-block;
 }
-header{
-    margin:30px 0px 144px 70 px;
+
+header {
+    margin: 10px 0px 144px 70px;
 }
-a{
+
+a {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 28px;
-    margin: 0 20px 0 0;
+    margin: 0 20 0 0;
     cursor: pointer;
-    color: #2b2a47;
+    color: #1c1000;
+    transition: opacity 0.2s;
+    text-decoration: none;
 }
 
-.botao-login{
+a:hover {
+    opacity: 0.8;
+}
+
+.botao-login {
     width: 130px;
     height: 38px;
-    border-radius: 20px;
-    background: #006fa2;
+    border-radius: 200px;
+    background: #061389;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    color: rgb(227, 231, 235);
+    color: rgb(232, 237, 241);
     transition: opacity 0.2s;
 }
 
-.botao-login:hover{
+.botao-login:hover {
     opacity: 0.8;
+}
+
+logo {
+    width: 40%;
+}
+
+.texto {
+    width: 40%;
+    display: inline-block;
+}
+
+main {
+    text-align: center;
+}
+
+.botao-explore {
+    width: 120px;
+    height: 44px;
+    cursor: pointer;
+    background: #8dff71;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+}
+.botao-explore:hover {
+    opacity: 0.7;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: 900;
+    color: #515151;
+}
+.sub-titulo{
+    color: #515151;
+    line-height: 1,5;
+    font-size: 25px;
+}
+.paragrafo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#848484;
+    text-align: justify;
+    margin: 20px 0 30px 0;
+    max-width: 500px;
 }
