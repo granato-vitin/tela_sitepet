@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -18,47 +18,52 @@ header {
 }
 
 a {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 28px;
-    margin: 0 20px 0 0;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 25px;
     cursor: pointer;
-    color: rgb(2, 2, 2);
-    transition: opacity 0.2s;
-    text-decoration: none
+    color: #000000;
+    transition: opacity 0.2;
+    text-decoration: none;
 }
 
 a:hover {
     opacity: 0.8;
 }
 
-.botao-login {
-    width: 130px;
-    height: 38px;
-    border-radius: 20px;
-    background-color: rgb(26, 5, 247);
+.botaoL {
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    background: #2e1dca;
     border: none;
     font-size: 20px;
     font-weight: 600;
-    color: rgb(251, 247, 247);
+    color: #E6EBFF;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.2s;
 }
 
-.botao-login:hover {
+.botaoL:hover {
     opacity: 0.8;
-    background-color: rgb(0, 0, 0);
+
 }
 
 .logo {
     width: 40%;
     max-width: 430px;
-    /*terceira aula*/
+
     display: inline-block;
     vertical-align: middle;
-    margin: 0 5;
+    margin: 0 5%;
+
+
+
 }
 
 .texto {
+
     width: 40%;
     display: inline-block;
     vertical-align: middle;
@@ -70,52 +75,51 @@ main {
     text-align: center;
 }
 
-.botao-explore {
+.botaoE {
     width: 180px;
-    height: 44px;
+    height: 40px;
+    border-radius: 30px;
     cursor: pointer;
-    background: rgb(196, 205, 28);
+    background: #12b65c;
     border: none;
-    border-radius: 20px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
+    color: #E6EBFF;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s;
-    text-decoration: none;
 }
 
-.botao-explore:houver {
-    opacity: 0, 7;
+.botaoE:hover {
+    opacity: 0.8;
 }
 
 .titulo {
-    font-size: 40px;
-    font-weight: 900;
-    ;
-    color: #000000
+    font-size: 50px;
+    font-weight: 800;
+    color: #12b65c;
 }
 
 .sub-titulo {
-    color: rgb(5, 5, 5);
-    line-height: 60px;
     font-size: 30px;
+    color: #515151;
+    line-height: 60px;
+
 }
 
 .paragrafo {
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgb(5, 5, 5);
+    font-weight: 350;
+    line-height: 20px;
+    color: #848484;
     text-align: justify;
     margin: 20px 0 30px 0;
     max-width: 500px;
-
 }
 
 footer {
     text-align: center;
-    background-color: rgb(7, 7, 7);
-    padding: 50px;
+    background: #E6EBFF;
+    padding: 60px;
     font-size: 14px;
     margin-top: 100px;
 }
@@ -129,28 +133,62 @@ footer {
     border-radius: 15px;
 }
 
-@media (max-width: 768px) {
+.servicos {
+    padding: 10px 0 100px 0;
+
+}
+
+.h2-servicos {
+    font-weight: 500;
+}
+
+.preco {}
+
+.lista-servicos {
+    width: 240px;
+    display: block;
+    text-transform: none;
+    color: #0c0c0c;
+    border: 2px solid;
+    margin: 0 60px;
+    padding: 20px 0;
+    border-radius: 15px;
+    translation: box-shadow 0.5s, transform 0.2s;
+}
+
+.lista-servicos:hover {
+    box-shadow: 0 2px 5px rgba(39, 77, 130, 0.916);
+    transforms: translateY(-2px);
+}
+
+.img-card {
+    width: 70%;
+}
+
+@media (max-width:768px) {
     header {
         margin: 30px 0px 60px 0;
         text-align: center;
         width: 100%;
+
     }
 
     a {
         font-weight: 500;
         font-size: 16px;
         line-height: 28px;
-        margin: 0 5px 0 0;
-
+        margin: 0 20px 0 0;
     }
 
-    .botao-login {
+    .botaoL {
         width: 90px;
         height: 32px;
         border-radius: 15px;
 
+        border: none;
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
+
 
     }
 
@@ -163,15 +201,25 @@ footer {
     .texto {
         width: 80%;
         text-align: center;
-
     }
 
     .titulo {
         font-size: 30px;
+
     }
 
     .img-dog {
         max-height: 250px;
     }
 
+    .h2-servicos {
+        font-weight: 400;
+        font-size: 22px ;
+    }
+
+    .lista-servicos {
+        width: 200px;
+        margin: 17px 10px;
+        padding: 16px 0;
+    }
 }
