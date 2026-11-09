@@ -131,10 +131,30 @@ footer{
 .img-dog{
     display: block;
     width: 70%;
-    height: 450px;
+    max-width: 700px;
+    height: 400px;
     object-fit: cover;
     margin: 80px auto 0 auto;
     border-radius: 15px;
+}
+.sobre{
+    padding: 50px 0;
+    background-color: #0a0a0a;
+
+}
+.video{
+    display: block
+    margin: 0 auto 0 auto;
+    width: 70%;
+    max-width: 640px;
+    height: 350px;
+    border-radius: 15px;
+}
+.titulo-video{
+
+}
+.card-secao{
+    padding: 10px 0 100px 0;
 }
 .servicos{
     padding: 10px 0 100px 0;
